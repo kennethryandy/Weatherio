@@ -83,7 +83,7 @@ export default function App() {
 
   return loading ? (
     <div className="loading">
-      <img src={loadingSvg} />
+      <img src={loadingSvg} alt=""/>
     </div>
   ) : (
     <div className="app">
